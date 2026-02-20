@@ -14,7 +14,7 @@ void insert(int n,int arr[],int pass )
     printf("Modified Array >>>>");
     for(int j=0;j<n;j++)
     {
-        printf("%d",arr[j]);
+        printf("%d ",arr[j]);
     }
 }
 int main()
@@ -25,3 +25,4 @@ int main()
     insert(n,arr,pass);
     return 0;
 }
+
